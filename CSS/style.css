@@ -86,6 +86,7 @@ header{
     grid-area: header;
     background-color: rgb(216, 162, 13);
     border: 4px black solid;
+    background: radial-gradient(red,blue);
     display: flex;
     justify-content: center;
 }
