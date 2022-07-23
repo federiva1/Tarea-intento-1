@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
+.modelo1{
+    font-family: "Gentium", sans-serif;
+}
+
+/*#menuPrincipal li{
+    display: inline;
+    background-color:black;
+    padding-left: 5px;
+    padding-right: 5px;
+}*/
+
+#menuPrincipal li{
+    background-color:black;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#menuPrincipal1{
+    color: blanchedalmond;
+}
+
+
+body{
+    background-color: rgb(216, 162, 13);
+    background-image: url(../Imagenes/tab.jpg);
+}
+
+.footer1{
+    width: 45px;
+    height: 45px;
+    padding-left: 20px; padding-right: 20px;
+    margin-top: 2px; margin-bottom: 10px;
+}
+.footer2{
+    width: 45px;
+    height: 45px;
+    padding-left: 20px; padding-right: 20px;
+    margin-top: 2px; margin-bottom: 10px;
+}
+.footer3{
+    width: 55px;
+    height: 55px;
+    padding-left: 20px; padding-right: 20px;
+    margin-top: 2px; margin-bottom: 10px;
+}
+#curso2{
+    width: 180px;
+    height: 180px;
+}
+#curso3{
+    width: 180px;
+    height: 180px;
+}
+
+.cursoLetra{
+    color: aliceblue;
+}
+
+#jugar1{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 250px;
+    height: 250px;
+}
+.general{
+   background-color: rgb(44, 42, 38);
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main main" 
+    "footer footer footer";
+}
+
+nav{
+    grid-area: nav;
+    border: 2px black solid;
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(216, 162, 13);
+    border: 4px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    grid-area: main;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main1{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+footer{
+    grid-area: footer;
+    background-color: rgb(44, 42, 38);
+    border: 4px black solid;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.imgFooter{
+    display: flex;
+justify-content: flex-end;
+padding-top: 1%;
+}
+
+@media (min-width:1024px) {
+    .general{
+        background-color: rgb(44, 42, 38);
+         display: grid;
+         grid-template-areas: 
+         "header header header"
+         "nav nav nav"
+         "main main main" 
+         "footer footer footer";
+     }
+    }
+
+
+    @media (min-width:600px) {
+        .general{
+            background-color: rgb(44, 42, 38);
+             display: grid;
+             grid-template-areas: 
+             "header header "
+             "nav nav "
+             "main main " 
+            "footer footer "
+         }
+        }
