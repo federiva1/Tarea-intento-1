@@ -7,17 +7,20 @@
     <title>Justchess</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagenes/reydama.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
 <body>
     <div class="general">
     
-     <header>
-    <h1 class="modelo1">Justchess.com</h1>   
-     </header>
+    <header>
+            <h1 data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">Justchess.com</h1>
+    </header>
 
-     <nav>
+    <nav data-aos="fade-right">
        <ul id="menuPrincipal">
         <li><a id="menuPrincipal1" href="index.html">Inicio</a></li>
         <li><a id="menuPrincipal1" href="Secciones/jugar.html">Jugar</a></li>
@@ -36,6 +39,10 @@
   
 
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 
 <footer>
